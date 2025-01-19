@@ -8,10 +8,10 @@ import { TermsComponent } from './pages/terms/terms.component';
 export const routes: Routes = [
   {
     path:'',
-    component:HomeComponent,
+    component:HomeComponent
 
   },
-  
+
   {
     path:"Post",
     component:SinglePostComponent

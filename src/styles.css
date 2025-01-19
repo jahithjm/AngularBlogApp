@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 :root
 {
-  --primary:#2E5077;
-  --secondary:#4DA1A9;
+  --primary:#252324;
+  --bar:#484848;
 
   --body-text:#F6F4F0;
-  --nav:#79D7BE;
+  --nav:#282828;
 }
 
 body{
@@ -13,4 +13,6 @@ body{
   font-size: 12px;
   color: var(--body-text);
   border-radius: 10px;
+  background-color: var(--primary);
 }
+

@@ -1,0 +1,46 @@
+footer
+{
+  height: 180px;
+  padding: 10px;
+  background-color: var(--bar);
+  margin-top: 90vh;
+}
+.side-logo {
+  box-shadow: 0 0 10px rgba(0,0.7);
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0px 20px;
+  color: var(--body-text);
+  text-transform: uppercase;
+}
+
+ul li{
+  padding: 15px;
+
+}
+
+ li a {
+  color: var(--body-text);
+  position: relative;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: var(--body-text);
+  transition: width 0.3s ease;
+}
+
+li a:hover {
+  color: var(--primary);
+}
+
+ li a:hover::after {
+  width: 100%;
+}

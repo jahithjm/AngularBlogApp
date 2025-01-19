@@ -1,0 +1,31 @@
+.card {
+  border-radius: 10px;
+}
+
+.form-group label {
+  color: var(--body-text);
+}
+
+.form-control {
+  background-color: var(--nav);
+  color: var(--body-text);
+  border: 1px solid var(--bar);
+}
+
+.form-control::placeholder {
+  color: var(--body-text);
+}
+
+.btn-primary {
+  background-color: var(--bar);
+  border-color: var(--bar);
+}
+
+button:hover {
+  background-color: var(--primary);
+  border-color: var(--body-text);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  border-width: 2px;
+  border-style: solid;
+  transition: border-width 0.3s ease;
+}

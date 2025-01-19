@@ -1,0 +1,38 @@
+nav {
+  margin-top: 50px; /* Adjust to be right below the header */
+  height: 50px;
+  background-color: var(--bar); /* Ensure full background color */
+  width: 100%;
+  position: relative;
+  z-index: 10; 
+}
+
+.navbar-nav li a {
+  color: var(--body-text);
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: var(--body-text);
+  transition: width 0.3s ease;
+}
+
+.navbar-nav li a:hover {
+  color: var(--primary);
+}
+
+.navbar-nav li a:hover::after {
+  width: 100%;
+}
+
+.container-fluid {
+  padding: 0; /* Remove padding for full width background */
+}
+

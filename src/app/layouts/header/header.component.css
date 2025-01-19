@@ -1,12 +1,21 @@
-header{
+header {
   height: 50px;
+  background-color: var(--primary);
 }
-.side-logo{
+
+.container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.side-logo {
+  box-shadow: 0 0 10px rgba(0,0.7);
+  text-decoration: none;
   font-size: 25px;
-  padding: 2px 20px;
-  background-color: var(--secondary);
+  padding: 0px 20px;
   color: var(--body-text);
-  border: 1px solid ;
-  border-radius: 10px;
   text-transform: uppercase;
 }
+
+
