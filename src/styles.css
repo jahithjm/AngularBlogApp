@@ -1,11 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 :root
 {
-  --primary:#252324;
+  --new:#252324;
   --bar:#484848;
 
   --body-text:#F6F4F0;
   --nav:#282828;
+  --primary:#070707;
+ 
 }
 
 body{

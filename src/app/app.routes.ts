@@ -7,21 +7,20 @@ import { TermsComponent } from './pages/terms/terms.component';
 
 export const routes: Routes = [
   {
-    path:'',
-    component:HomeComponent
-
+    path: '',
+    component: HomeComponent,
   },
 
   {
-    path:"Post",
-    component:SinglePostComponent
+    path: 'Post',
+    component: SinglePostComponent,
   },
   {
-    path:"Contact",
-    component:ContactComponent
+    path: 'Contact',
+    component: ContactComponent,
   },
   {
-    path:"Terms",
-    component:TermsComponent
+    path: 'Terms',
+    component: TermsComponent,
   },
 ];

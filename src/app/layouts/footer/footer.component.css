@@ -3,7 +3,9 @@ footer
   height: 180px;
   padding: 10px;
   background-color: var(--bar);
-  margin-top: 90vh;
+  margin-top: 10px;
+  border-top: 2px solid var(--body-text);
+  border-bottom: 4px solid var(--body-text);
 }
 .side-logo {
   box-shadow: 0 0 10px rgba(0,0.7);
